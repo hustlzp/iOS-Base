@@ -3,7 +3,7 @@ iOS-Base
 
 Instructions for iOS project.
 
-##.gitignore
+##添加.gitignore
 
 见[Objective-C.gitignore](https://github.com/github/gitignore/blob/master/Objective-C.gitignore)。
 
@@ -30,6 +30,22 @@ CocoaPods使用方法见[官网](https://cocoapods.org)。
 * Constants.h：常量
 * G.h / G.m：全局变量
 * Seed.h / Seed.m：初始化数据
+
+在XCode中建立Group，并将Group与文件夹关联起来。
+
+###去除storyboard
+
+* 删除`Main.storyboard`、`ViewController.h`、`ViewController.m`
+* 删除`Info.plist`中的`Main Storyboard file base name`项
+* 在`application:didFinishLaunchingWithOptions:`中添加如下代码：
+```objc
+self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+[self.window setRootViewController:viewController];
+self.window.backgroundColor = [UIColor whiteColor];
+[self.window makeKeyAndVisible];
+
+return YES;
+```
 
 ###崩溃记录
 
