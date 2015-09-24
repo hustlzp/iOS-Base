@@ -21,12 +21,15 @@ CocoaPods使用方法见[官网](https://cocoapods.org)。
 
 ##项目结构
 
-* Controllers/：控制器
-* Models/：模型
-* Views/：视图
-* Categories/：扩展
-* Additions/：额外的第三方库
-* Utils/：组件
+* Controllers：控制器
+* Models：模型
+* Views：视图
+* Categories：扩展
+* Additions：额外的第三方库
+* Utils：组件
+* Constants.h：常量
+* G.h / G.m：全局变量
+* Seed.h / Seed.m：初始化数据
 
 ###崩溃记录
 
