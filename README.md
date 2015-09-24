@@ -33,7 +33,7 @@ CocoaPods使用方法见[官网](https://cocoapods.org)。
 
 在XCode中建立Group，并将Group与文件夹关联起来。
 
-###去除storyboard
+##去除storyboard
 
 * 删除`Main.storyboard`、`ViewController.h`、`ViewController.m`
 * 删除`Info.plist`中的`Main Storyboard file base name`项
@@ -47,7 +47,7 @@ self.window.backgroundColor = [UIColor whiteColor];
 return YES;
 ```
 
-###崩溃记录
+##崩溃记录
 
 使用[Fabric](https://fabric.io)。
 
