@@ -1,7 +1,7 @@
 iOS-Base
 ========
 
-用于初始化iOS项目。
+Instructions for iOS project.
 
 ##.gitignore
 
