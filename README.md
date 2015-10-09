@@ -9,7 +9,17 @@ Instructions for iOS project.
 
 ##使用CocoaPods管理依赖
 
-CocoaPods使用方法见[官网](https://cocoapods.org)。
+```
+pod init
+```
+
+然后添加第三方库，并运行：
+
+```
+pod install
+```
+
+然后打开`*.xcworkspace`即可。
 
 常用第三方库：
 
@@ -18,6 +28,8 @@ CocoaPods使用方法见[官网](https://cocoapods.org)。
 * [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
 * [Fabric](https://fabric.io)
 * [Crashlytics](https://get.fabric.io/crashlytics)
+
+CocoaPods[官网](https://cocoapods.org)。
 
 ##项目结构
 
