@@ -28,6 +28,7 @@ pod install
 * [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
 * [Fabric](https://fabric.io)
 * [Crashlytics](https://get.fabric.io/crashlytics)
+* [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
 
 CocoaPods[官网](https://cocoapods.org)。
 
