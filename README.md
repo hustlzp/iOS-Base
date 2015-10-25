@@ -21,6 +21,7 @@ pod init
 * [Fabric](https://fabric.io)
 * [Crashlytics](https://get.fabric.io/crashlytics)
 * [ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS)
+* [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
 
 ```
 pod 'Masonry'
@@ -29,6 +30,7 @@ pod 'Fabric'
 pod 'Crashlytics'
 pod 'AFNetworking'
 pod 'ionicons'
+pod 'MBProgressHUD'
 ```
 
 并运行：
@@ -38,7 +40,6 @@ pod install
 ```
 
 然后打开`*.xcworkspace`即可。
-
 
 CocoaPods[官网](https://cocoapods.org)。
 
