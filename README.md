@@ -8,12 +8,30 @@ Instructions for iOS project.
 见[Objective-C.gitignore](https://github.com/github/gitignore/blob/master/Objective-C.gitignore)。
 
 ##使用CocoaPods管理依赖
-
+:
 ```
 pod init
 ```
 
-然后添加第三方库，并运行：
+添加常用第三方库：
+
+* [Masonry](https://github.com/SnapKit/Masonry)
+* [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+* [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
+* [Fabric](https://fabric.io)
+* [Crashlytics](https://get.fabric.io/crashlytics)
+* [ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS)
+
+```
+pod 'Masonry'
+pod 'MagicalRecord'
+pod 'Fabric'
+pod 'Crashlytics'
+pod 'AFNetworking'
+pod 'ionicons'
+```
+
+并运行：
 
 ```
 pod install
@@ -21,13 +39,6 @@ pod install
 
 然后打开`*.xcworkspace`即可。
 
-常用第三方库：
-
-* [Masonry](https://github.com/SnapKit/Masonry)
-* [AFNetworking](https://github.com/AFNetworking/AFNetworking)
-* [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
-* [Fabric](https://fabric.io)
-* [Crashlytics](https://get.fabric.io/crashlytics)
 
 CocoaPods[官网](https://cocoapods.org)。
 
