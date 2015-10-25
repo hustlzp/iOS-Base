@@ -8,7 +8,7 @@ Instructions for iOS project.
 见[Objective-C.gitignore](https://github.com/github/gitignore/blob/master/Objective-C.gitignore)。
 
 ##使用CocoaPods管理依赖
-:
+
 ```
 pod init
 ```
