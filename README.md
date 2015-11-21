@@ -23,6 +23,7 @@ pod init
 * [ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS)
 * [FontAwesome+iOS](https://github.com/alexdrone/ios-fontawesome)
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
+* [leancloud-feedback-ios](https://github.com/leancloud/leancloud-feedback-ios)
 
 ```
 pod 'Masonry'
@@ -32,6 +33,7 @@ pod 'Crashlytics'
 pod 'AFNetworking'
 pod 'ionicons'
 pod 'MBProgressHUD'
+pod 'LeanCloudFeedback'
 ```
 
 并运行：
