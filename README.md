@@ -21,6 +21,7 @@ pod init
 * [Fabric](https://fabric.io)
 * [Crashlytics](https://get.fabric.io/crashlytics)
 * [ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS)
+* [FontAwesome+iOS](https://github.com/alexdrone/ios-fontawesome)
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
 
 ```
