@@ -15,9 +15,8 @@ pod init
 
 添加常用第三方库：
 
-* [Masonry](https://github.com/SnapKit/Masonry)
+* [SnapKit](https://github.com/SnapKit/SnapKit)
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
-* [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
 * [Fabric](https://fabric.io)
 * [Crashlytics](https://get.fabric.io/crashlytics)
 * [ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS)
@@ -26,8 +25,7 @@ pod init
 * [leancloud-feedback-ios](https://github.com/leancloud/leancloud-feedback-ios)
 
 ```
-pod 'Masonry'
-pod 'MagicalRecord'
+pod 'SnapKit'
 pod 'Fabric'
 pod 'Crashlytics'
 pod 'AFNetworking'
@@ -51,27 +49,25 @@ CocoaPods[官网](https://cocoapods.org)。
 * Controllers：控制器
 * Models：模型
 * Views：视图
-* Categories：扩展
+* Extensions：扩展
 * Additions：额外的第三方库
 * Utils：组件
-* Constants.h：常量
-* G.h / G.m：全局变量
-* Seed.h / Seed.m：初始化数据
+* Constants.swift：常量
 
 在XCode中建立Group，并将Group与文件夹关联起来。
 
 ##去除storyboard
 
-* 删除`Main.storyboard`、`ViewController.h`、`ViewController.m`
+* 删除`Main.storyboard`、`ViewController.swift`
 * 删除`Info.plist`中的`Main Storyboard file base name`项
 * 在`application:didFinishLaunchingWithOptions:`中添加如下代码：
 ```objc
-self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-[self.window setRootViewController:viewController];
-self.window.backgroundColor = [UIColor whiteColor];
-[self.window makeKeyAndVisible];
+window = UIWindow(frame: UIScreen.mainScreen().bounds)
+window.rootViewController = controller
+window?.backgroundColor = UIColor.whiteColor()
+window?.makeKeyAndVisible()
 
-return YES;
+return true
 ```
 
 ##崩溃记录
@@ -81,5 +77,3 @@ return YES;
 ##常用工具
 
 * [Reveal](http://revealapp.com)
-* [mogenerator](https://github.com/rentzsch/mogenerator)
-
