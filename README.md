@@ -16,7 +16,7 @@ pod init
 添加常用第三方库：
 
 * [SnapKit](https://github.com/SnapKit/SnapKit)
-* [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+* [Alamofire](https://github.com/Alamofire/Alamofire)
 * [Fabric](https://fabric.io)
 * [Crashlytics](https://get.fabric.io/crashlytics)
 * [ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS)
@@ -28,7 +28,7 @@ pod init
 pod 'SnapKit'
 pod 'Fabric'
 pod 'Crashlytics'
-pod 'AFNetworking'
+pod 'Alamofire'
 pod 'ionicons'
 pod 'MBProgressHUD'
 pod 'LeanCloudFeedback'
