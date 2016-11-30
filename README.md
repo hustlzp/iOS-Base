@@ -73,7 +73,3 @@ return true
 ##崩溃记录
 
 使用[Fabric](https://fabric.io)。
-
-##常用工具
-
-* [Reveal](http://revealapp.com)
