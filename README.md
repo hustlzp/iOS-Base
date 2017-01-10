@@ -63,7 +63,7 @@ CocoaPods[官网](https://cocoapods.org)。
 
 ```objc
 window = UIWindow(frame: UIScreen.main.bounds)
-window.rootViewController = controller
+window?.rootViewController = ViewController()
 window?.backgroundColor = UIColor.white
 window?.makeKeyAndVisible()
 
