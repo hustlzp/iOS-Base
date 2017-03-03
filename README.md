@@ -5,7 +5,10 @@ Instructions for iOS project.
 
 ##添加.gitignore
 
-见[Swift.gitignore](https://raw.githubusercontent.com/github/gitignore/master/Swift.gitignore)。
+```
+wget https://raw.githubusercontent.com/github/gitignore/master/Swift.gitignore
+mv Swift.gitignore .gitignore
+```
 
 ##使用CocoaPods管理依赖
 
