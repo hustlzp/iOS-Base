@@ -64,13 +64,11 @@ CocoaPods[官网](https://cocoapods.org)。
 * 删除`Info.plist`中的`Main Storyboard file base name`项
 * 在`application:didFinishLaunchingWithOptions:`中添加如下代码：
 
-```objc
+```swift
 window = UIWindow(frame: UIScreen.main.bounds)
 window?.rootViewController = ViewController()
 window?.backgroundColor = UIColor.white
 window?.makeKeyAndVisible()
-
-return true
 ```
 
 ##崩溃记录
