@@ -22,6 +22,7 @@ pod init
 * [Alamofire](https://github.com/Alamofire/Alamofire)
 * [Fabric](https://fabric.io)
 * [Crashlytics](https://get.fabric.io/crashlytics)
+* [Localize_Swift](https://github.com/marmelroy/Localize-Swift)
 * [ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS)
 * [FontAwesome+iOS](https://github.com/alexdrone/ios-fontawesome)
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
