@@ -34,8 +34,10 @@ pod 'Fabric'
 pod 'Crashlytics'
 pod 'Alamofire'
 pod 'ionicons'
+pod 'SDWebImage'
 pod 'MBProgressHUD'
-pod 'LeanCloudFeedback'
+pod 'SwiftyStoreKit'
+pod 'Localize-Swift'
 ```
 
 并运行：
