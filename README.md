@@ -24,9 +24,9 @@ pod init
 * [Crashlytics](https://get.fabric.io/crashlytics)
 * [Localize_Swift](https://github.com/marmelroy/Localize-Swift)
 * [ionicons-iOS](https://github.com/sweetmandm/ionicons-iOS)
-* [FontAwesome+iOS](https://github.com/alexdrone/ios-fontawesome)
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
-* [leancloud-feedback-ios](https://github.com/leancloud/leancloud-feedback-ios)
+* [SDWebImage](https://github.com/rs/SDWebImage)
+* [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)
 
 ```
 pod 'SnapKit'
