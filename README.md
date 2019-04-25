@@ -3,14 +3,14 @@ iOS-Base
 
 Instructions for iOS project.
 
-##添加.gitignore
+## 添加.gitignore
 
 ```
 wget https://raw.githubusercontent.com/github/gitignore/master/Swift.gitignore
 mv Swift.gitignore .gitignore
 ```
 
-##使用CocoaPods管理依赖
+## 使用CocoaPods管理依赖
 
 ```
 pod init
@@ -63,7 +63,7 @@ pod install
 
 CocoaPods[官网](https://cocoapods.org)。
 
-##项目结构
+## 项目结构
 
 * Controllers：控制器
 * Models：模型
@@ -75,7 +75,7 @@ CocoaPods[官网](https://cocoapods.org)。
 
 在XCode中建立Group，并将Group与文件夹关联起来。
 
-##去除storyboard
+## 去除storyboard
 
 * 删除`Info.plist`中的`Main Storyboard file base name`项
 * 在`application:didFinishLaunchingWithOptions:`中添加如下代码：
@@ -87,6 +87,6 @@ window?.backgroundColor = UIColor.white
 window?.makeKeyAndVisible()
 ```
 
-##崩溃记录
+## 崩溃记录
 
 使用[Fabric](https://fabric.io)。
