@@ -27,6 +27,9 @@ pod init
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
 * [SDWebImage](https://github.com/rs/SDWebImage)
 * [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)
+* [PromiseKit](https://github.com/mxcl/PromiseKit)
+* [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults)
+* [UMeng](https://umeng.com)
 
 ```
 pod 'SnapKit'
@@ -38,6 +41,16 @@ pod 'SDWebImage'
 pod 'MBProgressHUD'
 pod 'SwiftyStoreKit'
 pod 'Localize-Swift'
+pod 'PromiseKit'
+pod 'SwiftyUserDefaults'
+pod 'UMCCommon'
+pod 'UMCSecurityPlugins'
+pod 'UMCAnalytics'
+pod 'UMCShare/Social/ReducedWeChat'
+pod 'UMCShare/Social/ReducedQQ'
+pod 'UMCShare/Social/ReducedSina'
+pod 'UMCShare/Social/Facebook'
+pod 'UMCShare/Social/Twitter'
 ```
 
 并运行：
