@@ -1,6 +1,6 @@
 //
-//  UIColor+Extensions.swift
-//  duowen
+//  UIColor+Helper.swift
+//  iOS-Base
 //
 //  Created by hustlzp on 15/12/16.
 //  Copyright © 2015年 hustlzp. All rights reserved.
