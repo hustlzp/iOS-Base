@@ -1,4 +1,6 @@
 import UIKit
+import AVFoundation
+import Photos
 
 class Utils: NSObject {
     class func dispatchAfter(_ second: Double, completion: (() -> Void)?) {
@@ -41,10 +43,15 @@ class Utils: NSObject {
     
     class func showPermissionReuqestAlert(_ controller: UIViewController, title: String) {
         let alertController = UIAlertController(title: nil, message: title, preferredStyle: .alert)
-        alertController.addAction("取消".localized(), style: .cancel)
-        alertController.addAction("去设置".localized(), style: .default, handle: { (action) -> Void in
+        
+        let settingsAction = UIAlertAction(title: "去设置", style: .default) { (_) in
             self.openSettingsViewController()
-        })
+        }
+        alertController.addAction(settingsAction)
+        
+        let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)
+        alertController.addAction(cancelAction)
+        
         controller.present(alertController, animated: true, completion: nil)
     }
     
