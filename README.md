@@ -104,5 +104,5 @@ window?.makeKeyAndVisible()
 ```
 npm init
 npm install opencc
-npm generatetr.js
+node generatetr.js
 ```
