@@ -90,3 +90,19 @@ window?.makeKeyAndVisible()
 ## 崩溃记录
 
 使用[Fabric](https://fabric.io)。
+
+## 本地化
+
+将 `generatetr.js`, `genstrings.swift` 拷贝到项目根目录。
+
+修改 `generatetr.js` 中的 `projectDir` 变量。
+
+在项目中添加 `zh-Hans`, `zh-Hant`, `zh-Hant-TW` 本地化支持。
+
+在项目中新建 `Localizable.strings`, `InfoPlist.strings` 文件，并为它们添加本地化支持。
+
+```
+npm init
+npm install opencc
+npm generatetr.js
+```
