@@ -8,7 +8,10 @@ Instructions for iOS project.
 ```
 wget https://raw.githubusercontent.com/github/gitignore/master/Swift.gitignore
 mv Swift.gitignore .gitignore
+vim .gitignore
 ```
+
+移除 `Pods/` 的注释。
 
 ## 使用CocoaPods管理依赖
 
@@ -30,6 +33,7 @@ pod init
 * [PromiseKit](https://github.com/mxcl/PromiseKit)
 * [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults)
 * [UMeng](https://umeng.com)
+* [RxSwift](https://github.com/ReactiveX/RxSwift)
 
 ```
 pod 'SnapKit'
@@ -51,6 +55,8 @@ pod 'UMCShare/Social/ReducedQQ'
 pod 'UMCShare/Social/ReducedSina'
 pod 'UMCShare/Social/Facebook'
 pod 'UMCShare/Social/Twitter'
+pod 'RxSwift'
+pod 'RxCocoa'
 ```
 
 并运行：
