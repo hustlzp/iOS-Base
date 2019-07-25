@@ -32,7 +32,7 @@ pod init
 * [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)
 * [PromiseKit](https://github.com/mxcl/PromiseKit)
 * [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults)
-* [UMeng](https://umeng.com)
+* [UMeng](https://www.umeng.com)
 * [RxSwift](https://github.com/ReactiveX/RxSwift)
 
 ```
@@ -49,6 +49,7 @@ pod 'PromiseKit'
 pod 'SwiftyUserDefaults'
 pod 'UMCCommon'
 pod 'UMCSecurityPlugins'
+pod 'UMCCommonLog'
 pod 'UMCAnalytics'
 pod 'UMCShare/Social/ReducedWeChat'
 pod 'UMCShare/Social/ReducedQQ'
