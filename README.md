@@ -34,6 +34,7 @@ pod init
 * [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults)
 * [UMeng](https://www.umeng.com)
 * [RxSwift](https://github.com/ReactiveX/RxSwift)
+* [R.swift](https://github.com/mac-cain13/R.swift)
 
 ```
 pod 'SnapKit'
@@ -58,6 +59,7 @@ pod 'UMCShare/Social/Facebook'
 pod 'UMCShare/Social/Twitter'
 pod 'RxSwift'
 pod 'RxCocoa'
+pod 'R.swift'
 ```
 
 并运行：
